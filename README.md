@@ -11,3 +11,5 @@ This is a Repo. Consisting of Data Analyst Portfolio Projects Build from Scratch
 
 > Alternatively, you can go to Edit → IntelliSense → Refresh Local Cache.
 
+> Use the `Cast` Function to Rename a Column DataType
+
