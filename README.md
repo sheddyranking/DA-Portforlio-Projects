@@ -15,3 +15,5 @@ This is a Repo. Consisting of Data Analyst Portfolio Projects Build from Scratch
 
 > The common table expression (CTE) is a temporary named result set that you can reference within a SELECT, INSERT, UPDATE, or DELETE statement. You can also use a CTE in a CREATE a view, as part of the view's SELECT query.
 
+NOTE: IF the Number of Columns in the CTE is different from the Reference Statement it's gonna give an Error.
+
