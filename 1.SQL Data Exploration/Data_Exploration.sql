@@ -133,11 +133,10 @@ JOIN DAPortfolioProject..CovidVaccinations vac
 WHERE dea.continent IS NOT NULL
 --ORDER BY 2,3
 )
-SELECT *,  (RollingPeopleVaccinated/population)*100  
+SELECT *,  (RollingPeopleVaccinated/population)*100  --- NOW MAKING CALCULATOINS WITH RollingPeopleVaccinated Column to Know Per% Polulation Vaccinated by Country.
 FROM PopvsVac  --Highlight the Whole Query and Execute
 
 
---- NOW MAKING CALCULATOINS WITH RollingPeopleVaccinated Column to Know Percentage Poluation Vaccinated by Country.
 
  
 
