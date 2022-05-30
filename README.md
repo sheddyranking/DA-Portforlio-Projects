@@ -13,3 +13,5 @@ This is a Repo. Consisting of Data Analyst Portfolio Projects Build from Scratch
 
 > Use the `Cast` Function to Rename a Column DataType
 
+> The common table expression (CTE) is a temporary named result set that you can reference within a SELECT, INSERT, UPDATE, or DELETE statement. You can also use a CTE in a CREATE a view, as part of the view's SELECT query.
+
