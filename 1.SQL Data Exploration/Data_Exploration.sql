@@ -79,7 +79,7 @@ FROM DAPortfolioProject..CovidDeaths
 GROUP BY location, population, date
 order by CountriersPercentInfectedPerDate DESC
  
-CREATE VIEW CountriersPercentInfectedPerDate as
+CREATE VIEW CountriersPercentInfectedPerDate as --Creating Views
 SELECT location, population, date, MAX(total_cases) AS HighestInfectionCount, MAX((total_cases/population))*100 AS CountriersPercentInfectedPerDate
 FROM DAPortfolioProject..CovidDeaths
 -- WHERE location LIKE '%States%'
