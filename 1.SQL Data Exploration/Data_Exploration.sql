@@ -19,13 +19,15 @@ order by 1,2
 
 SELECT location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 AS DeathPercentage
 FROM DAPortfolioProject..CovidDeaths
-WHERE location LIKE '%States%' and  continent IS NOT NULL
+--WHERE location LIKE '%States%' and 
+WHERE continent IS NOT NULL
 order by 1,2
  
 CREATE VIEW DeathPercentage as --Create View to store query in table 
 SELECT location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 AS DeathPercentage
 FROM DAPortfolioProject..CovidDeaths
-WHERE location LIKE '%States%' and  continent IS NOT NULL
+--WHERE location LIKE '%States%' and  
+WHERE continent IS NOT NULL
 --order by 1,2
  
 
