@@ -19,4 +19,5 @@ NOTE: IF the Number of Columns in the CTE is different from the Reference Statem
 
 ###### VIEW
 
-> Database `view`'s can be used to Store Exploratory Queries into Tables for Data Visualizations
+> Database `view`'s can be used to Store Exploratory Data into Tables for Data Visualizations
+
