@@ -1,2 +1,2 @@
 
-SELECT * FROM  GlobalNumbering
+SELECT * FROM  TotalGlobalNumbering
