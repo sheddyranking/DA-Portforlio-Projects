@@ -70,7 +70,20 @@ WHERE continent IS NOT NULL
 GROUP BY location, population
 --order by CountriesPercentInfected DESC
 
+
+---COUNTRIES PERCENTAGE INFEFCTED PER DATE.
+
+SELECT location, population, date, MAX(total_cases) AS HighestInfectionCount, MAX((total_cases/population))*100 AS CountriersPercentInfectedPerDate
+FROM DAPortfolioProject..CovidDeaths
+-- WHERE location LIKE '%States%'
+GROUP BY location, population, date
+order by CountriersPercentInfectedPerDate DESC
  
+CREATE VIEW CountriersPercentInfectedPerDate as
+SELECT location, population, date, MAX(total_cases) AS HighestInfectionCount, MAX((total_cases/population))*100 AS CountriersPercentInfectedPerDate
+FROM DAPortfolioProject..CovidDeaths
+-- WHERE location LIKE '%States%'
+GROUP BY location, population, date
 
 
 --LOOKING AT COUNTRIES WITH HIGHEST DEATH COUNT PER POPULATION
@@ -97,19 +110,22 @@ GROUP BY location
 
 ---- Showing the Continent with the Highest DeathCount per Population
 
-SELECT continent, MAX(cast(total_deaths as int))  AS TotalDeathsCountPerContinent
+SELECT location, SUM(cast(total_deaths as int))  AS TotalDeathsCountPerContinent
 FROM DAPortfolioProject..CovidDeaths
 
-WHERE continent IS NOT NULL
-GROUP BY continent 
+WHERE continent is null
+and location not in ('World', 'European Union', 'International')
+GROUP BY location 
 order by TotalDeathsCountPerContinent DESC
 
 CREATE VIEW TotalDeathsCountPerContinent as -- Creating view
-SELECT continent, MAX(cast(total_deaths as int))  AS TotalDeathsCountPerContinent
+SELECT location, SUM(cast(total_deaths as int))  AS TotalDeathsCountPerContinent
 FROM DAPortfolioProject..CovidDeaths
-WHERE continent IS NOT NULL
-GROUP BY continent 
+WHERE continent is null
+and location not in ('World', 'European Union', 'International')
+GROUP BY location 
 --order by TotalDeathsCountPerContinent DESC
+
 
  
 
