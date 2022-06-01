@@ -17,3 +17,6 @@ This is a Repo. Consisting of Data Analyst Portfolio Projects Build from Scratch
 
 NOTE: IF the Number of Columns in the CTE is different from the Reference Statement it's gonna give an Error.
 
+###### VIEW
+
+> Database `view`'s can be used to Store Exploratory Queries into Tables for Data Visualizations
