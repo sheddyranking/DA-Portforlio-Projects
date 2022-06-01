@@ -24,3 +24,9 @@ NOTE: IF the Number of Columns in the CTE is different from the Reference Statem
 ###### The SQL Exploratory Queries 
 
 > https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/1.SQL%20Data%20Exploration/Data_Exploration.sql
+
+###### The Exploratory Tables To be used In Project Two.
+
+> https://github.com/sheddyranking/DA-Portforlio-Projects/tree/main/1.SQL%20Data%20Exploration/Exploratory%20Tables
+
+
