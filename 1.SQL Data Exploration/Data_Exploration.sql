@@ -270,5 +270,4 @@ WHERE dea.continent IS NOT NULL
 
 --- YOU CAN SELECT THE VIEWS BECAUSE IT IS NOW A TABLE THAT HAS BEEN CREATED 
 
-SELECT *
-FROM PercentPopulationVaccinated
+-- SELECT *FROM PercentPopulationVaccinated
