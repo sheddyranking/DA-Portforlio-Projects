@@ -1,7 +1,7 @@
 ## Data-Analyst-Portforlio-Projects
 
 This is a Repo. Consisting of Data Analyst Portfolio Projects Build from Scratch.
-#### Project 1.  SQL Data Exploration.
+### Project 1.  SQL Data Exploration.
 
 >  When importing Excel Workbook Data into the Microsoft SQL Studio, Open the SQL Import and Export Wizard Directly Else you will hit an Error. 
 
@@ -19,4 +19,8 @@ NOTE: IF the Number of Columns in the CTE is different from the Reference Statem
 
 ###### VIEW
 
-> Database `view`'s can be used to Store Exploratory Queries into Tables for Data Visualizations
+> Database `view`'s can be used to Store Exploratory Data into Tables for Data Visualizations
+
+###### The SQL Exploratory Queries 
+
+> https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/1.SQL%20Data%20Exploration/Data_Exploration.sql
