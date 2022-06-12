@@ -54,3 +54,5 @@ NOTE: IF the Number of Columns in the CTE is different from the Reference Statem
 
 
 
+### Project 3. Data Cleaning in SQL.
+
