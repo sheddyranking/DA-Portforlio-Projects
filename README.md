@@ -1,6 +1,7 @@
 ## Data-Analyst-Portforlio-Projects
 
 This is a Repo. Consisting of Data Analyst Portfolio Projects Build from Scratch.
+
 ### Project 1.  SQL Data Exploration.
 
 ###### The SQL Exploratory Queries 
@@ -30,5 +31,23 @@ NOTE: IF the Number of Columns in the CTE is different from the Reference Statem
 ###### VIEW
 
 > Database `view`'s can be used to Store Exploratory Data into Tables for Data Visualizations
+
+
+### Project 2. Tableau Visualization.
+
+##### Covid19 Analysis Dasboard 
+
+`The Visual Consist:`
+
+> Global Numbering 
+
+> Total Deaths Per Continent 
+
+> Avergae Percentage Population Infected per country (Selected)
+
+> Percentage Population Infected Per Country On a Map.
+
+![World Covid19 Analysis Dashboard ](https://user-images.githubusercontent.com/42388234/173252777-fe036f98-dd2e-4073-b4d9-92094fdff3f5.png)
+
 
 
