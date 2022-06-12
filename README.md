@@ -47,6 +47,9 @@ NOTE: IF the Number of Columns in the CTE is different from the Reference Statem
 
 > Percentage Population Infected Per Country On a Map.
 
+###### PowerPoint Presentation 
+>https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/2.Tableau%20Visualization/Covid19%20Dashboard.pptx
+
 ![World Covid19 Analysis Dashboard ](https://user-images.githubusercontent.com/42388234/173252777-fe036f98-dd2e-4073-b4d9-92094fdff3f5.png)
 
 
