@@ -1,7 +1,7 @@
 ## Data-Analyst-Portforlio-Projects
 
-This is a Repo. Consisting of Data Analyst Portfolio Projects Build from Scratch.
-
+ DA-Portfolio Projects with SQL and Tableau Build From Scratch 
+ 
 ### Project 1.  SQL Data Exploration.
 
 ###### The SQL Exploratory Queries 
