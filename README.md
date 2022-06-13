@@ -53,6 +53,9 @@ NOTE: IF the Number of Columns in the CTE is different from the Reference Statem
 ![World Covid19 Analysis Dashboard ](https://user-images.githubusercontent.com/42388234/173252777-fe036f98-dd2e-4073-b4d9-92094fdff3f5.png)
 
 
-
 ### Project 3. Data Cleaning in SQL.
+
+######  NB Solution: SSMS Import Excel Values as NULL 
+
+> When ever Excel Values Generate NULL Values when Imported into SSMS, save the worksheet as .CSV and import as a flat file from task when reviewing the data, uncheck the DataTypes indicator. 
 
