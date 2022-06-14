@@ -59,3 +59,8 @@ NOTE: IF the Number of Columns in the CTE is different from the Reference Statem
 
 > When ever Excel Values Generate NULL Values when Imported into SSMS, save the worksheet as .CSV and import as a flat file from task when reviewing the data, uncheck the DataTypes indicator. 
 
+###### Splitting Values in SQL
+
+> When Splitting an Address the `PARSENAME` Function is more preferable to `SUBSTRINGS`
+
+
