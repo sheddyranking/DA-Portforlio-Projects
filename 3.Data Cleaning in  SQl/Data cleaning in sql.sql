@@ -144,3 +144,39 @@ SET OwnerSplitState = PARSENAME(REPLACE(OwnerAddress, ',', '.') , 1)
 --Preview New Column
 Select *
 From DAPortfolioProject..NashvilleHousing
+
+
+
+-- 4. REPLACE "N" AND "Y" TO "NO" AND "YES" IN "SoldAsVacant" Column
+
+--select to preview N and Y count.
+
+SELECT	DISTINCT(SoldAsVacant), COUNT(SoldAsVacant)
+FROM DAPortfolioProject..NashvilleHousing
+GROUP BY SoldAsVacant
+ORDER BY 2
+
+
+--- Replacement selection
+Select SoldAsVacant
+, CASE WHEN SoldAsVacant = 'Y' THEN 'YES'
+		WHEN SoldAsVacant = 'N' THEN 'NO'
+		ELSE SoldAsVacant
+		END
+From DAPortfolioProject..NashvilleHousing
+
+
+--- UPdating the columns
+UPDATE NashvilleHousing
+SET SoldAsVacant = CASE WHEN SoldAsVacant = 'Y' THEN 'YES'
+		WHEN SoldAsVacant = 'N' THEN 'NO'
+		ELSE SoldAsVacant
+		END
+
+
+--- 5.REMOVING DUPLICATE 
+
+
+SELECT * 
+
+From DAPortfolioProject..NashvilleHousing
