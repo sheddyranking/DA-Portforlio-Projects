@@ -227,3 +227,4 @@ DROP COLUMN SaleDate,PropertyAddress,OwnerAddress,TaxDistrict
 --Preview Cleaned Data.
 SELECT * From DAPortfolioProject..NashvilleHousing
 
+ 
