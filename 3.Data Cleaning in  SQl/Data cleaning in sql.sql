@@ -215,5 +215,15 @@ WHERE row_num > 1
 
 
 
+--- 6.DELETING UNUSED COLUUMNS 
+--we dont need the saledate,propertyaddress,owneraddress and TaxDistrict. (Most are splitted)
 
+
+
+ALTER TABLE DAPortfolioProject..NashvilleHousing
+DROP COLUMN SaleDate,PropertyAddress,OwnerAddress,TaxDistrict 
+
+
+--Preview Cleaned Data.
+SELECT * From DAPortfolioProject..NashvilleHousing
 
