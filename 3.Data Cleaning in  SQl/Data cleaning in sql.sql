@@ -177,6 +177,43 @@ SET SoldAsVacant = CASE WHEN SoldAsVacant = 'Y' THEN 'YES'
 --- 5.REMOVING DUPLICATE 
 
 
-SELECT * 
-
+---Filter duplicate rows ..using CTE(Common Table Expression)
+WITH RowNumCTE AS (
+SELECT *,
+ROW_NUMBER() OVER(
+PARTITION BY ParcelID,
+			PropertyAddress,
+			SaleDate,
+			SalePrice,
+			LegalReference
+			ORDER BY UniqueID) row_num
 From DAPortfolioProject..NashvilleHousing
+)
+SELECT * 
+FROM RowNumCTE
+WHERE row_num > 1
+ORDER BY PropertyAddress
+
+
+--- Deleting the Filtered Column with row_num > 1 
+
+WITH RowNumCTE AS (
+SELECT *,
+ROW_NUMBER() OVER(
+PARTITION BY ParcelID,
+			PropertyAddress,
+			SaleDate,
+			SalePrice,
+			LegalReference
+			ORDER BY UniqueID) row_num
+From DAPortfolioProject..NashvilleHousing
+)
+DELETE
+FROM RowNumCTE
+WHERE row_num > 1
+--ORDER BY PropertyAddress
+
+
+
+
+
