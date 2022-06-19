@@ -64,6 +64,4 @@ NOTE: IF the Number of Columns in the CTE is different from the Reference Statem
 > When Splitting an Address the `PARSENAME` Function is more preferable to `SUBSTRINGS`
 
 #### Complete Data Cleaning with SQL 
-> https://github.com/sheddyranking/DA-Portforlio-Projects/tree/main/3.Data%20Cleaning%20in%20%20SQl
-
-
+> https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/3.Data%20Cleaning%20in%20%20SQl/Data%20cleaning%20in%20sql.sql
