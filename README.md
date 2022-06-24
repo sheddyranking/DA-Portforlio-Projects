@@ -53,6 +53,7 @@
 
 ### Project 3. Data Cleaning in SQL. (Nashville Housising Dataset)
 
+> https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/3.Data%20Cleaning%20in%20%20SQl/Data%20cleaning%20in%20sql.sql  
 ###### Note:
 > When ever Excel Columns Generate NULL Values when Imported into SSMS, save the worksheet as .CSV and import as a flat file from task when reviewing the data, uncheck the DataTypes indicator. 
 
@@ -60,3 +61,5 @@
 
 ### Project 4. Correlation In Python (Movie Dataset) 
 
+###### NOTE:
+>  Errors such as `Cannot convert non-finite values (NA or inf) to integer`,  Use the `df['column_name'].apply(pd.to_numeric).astype('Int64')` to allow Nullable Integers Coexist with NaNs.

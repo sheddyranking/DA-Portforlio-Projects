@@ -6,7 +6,7 @@ Cleaning Data in SQL Queries
 
 
 Select *
-From DAPortfolioProject...NashvilleHousing
+From DAPortfolioProject..NashvilleHousing
 
 --------------------------------------------------------------------------------------------------------------------------
 
