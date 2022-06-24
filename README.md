@@ -61,5 +61,7 @@
 
 ### Project 4. Correlation In Python (Movie Dataset) 
 
+> https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/4.Correlation%20In%20Python/%20Correlation_Python.ipynb
+
 ###### NOTE:
 >  Errors such as `Cannot convert non-finite values (NA or inf) to integer`,  Use the `df['column_name'].apply(pd.to_numeric).astype('Int64')` to allow Nullable Integers Coexist with NaNs.
