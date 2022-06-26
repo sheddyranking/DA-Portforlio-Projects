@@ -65,3 +65,8 @@
 
 ###### NOTE:
 >  Errors such as `Cannot convert non-finite values (NA or inf) to integer`,  Use the `df['column_name'].apply(pd.to_numeric).astype('Int64')` to allow Nullable Integers Coexist with NaNs.
+
+###### Budget vs gross comparison
+
+![Budvsgross](https://user-images.githubusercontent.com/42388234/175798476-12ef125e-09b3-4e58-98f8-8f6815c987c8.png)
+
