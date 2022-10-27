@@ -2,13 +2,16 @@
 
  DA-Portfolio Projects with Python, SQL and Tableau Build From Scratch 
  
-### Project 1.  SQL Data Exploration.(Covid_19 Dataset)
+ 
+### Project 1. Revenue & Profit Dashboard with Excel, Also combing data from Multiple sheets using VLOOKUP.
+ 
+### Project 2.  SQL Data Exploration.(Covid_19 Dataset)
 
 ##### The SQL Exploratory Queries 
 
 > https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/1.SQL%20Data%20Exploration/Data_Exploration.sql
 
-#####  The Exploratory Tables To be used In Project Two.
+#####  The Exploratory Tables To be used In Project 2.
 
 > https://github.com/sheddyranking/DA-Portforlio-Projects/tree/main/1.SQL%20Data%20Exploration/Exploratory%20Tables
 
@@ -31,7 +34,7 @@
 > Database `view`'s can be used to Store Exploratory Data into Tables for Data Visualizations
 
 
-### Project 2. Tableau Visualization.
+### Project 3. Tableau Visualization.
 
 ##### Covid19 Analysis Dasboard 
 
@@ -51,7 +54,7 @@
 ![World Covid19 Analysis Dashboard ](https://user-images.githubusercontent.com/42388234/173252777-fe036f98-dd2e-4073-b4d9-92094fdff3f5.png)
 
 
-### Project 3. Data Cleaning in SQL. (Nashville Housising Dataset)
+### Project 4. Data Cleaning in SQL. (Nashville Housising Dataset)
 
 > https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/3.Data%20Cleaning%20in%20%20SQl/Data%20cleaning%20in%20sql.sql  
 ###### Note:
@@ -59,14 +62,4 @@
 
 > When Splitting an Address the `PARSENAME` Function is more preferable to `SUBSTRINGS`
 
-### Project 4. Correlation In Python (Movie Dataset) 
-
-> https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/4.Correlation%20In%20Python/%20Correlation_Python.ipynb
-
-###### NOTE:
->  Errors such as `Cannot convert non-finite values (NA or inf) to integer`,  Use the `df['column_name'].apply(pd.to_numeric).astype('Int64')` to allow Nullable Integers Coexist with NaNs.
-
-###### Budget vs gross comparison
-
-![Budvsgross](https://user-images.githubusercontent.com/42388234/175798476-12ef125e-09b3-4e58-98f8-8f6815c987c8.png)
-
+ 
