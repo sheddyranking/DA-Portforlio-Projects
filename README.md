@@ -8,6 +8,11 @@
 > Revenue & Profit Dashboard with Excel - Download Workbook here: https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/Revenue%20%26%20%20Profit%20Dashboard-Excel.xlsx
 
 > combing data from Multiple sheets using VLOOKUP - Downnload Worksheet here: https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/Vlookups.xlsx
+
+![Screenshot (326)](https://user-images.githubusercontent.com/42388234/198420553-32e5a11a-66d0-4065-964f-7db10c754316.png)
+
+![Screenshot (325)](https://user-images.githubusercontent.com/42388234/198420555-29c26607-4ddf-47c3-8384-2b7a722b49a1.png)
+
  
 ### Project 2.  SQL Data Exploration.(Covid_19 Dataset)
 
