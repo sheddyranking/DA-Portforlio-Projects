@@ -4,6 +4,10 @@
  
  
 ### Project 1. Revenue & Profit Dashboard with Excel, Also combing data from Multiple sheets using VLOOKUP.
+
+> Revenue & Profit Dashboard with Excel - Download Workbook here: https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/Revenue%20%26%20%20Profit%20Dashboard-Excel.xlsx
+
+> combing data from Multiple sheets using VLOOKUP - Downnload Worksheet here: https://github.com/sheddyranking/DA-Portforlio-Projects/blob/main/Vlookups.xlsx
  
 ### Project 2.  SQL Data Exploration.(Covid_19 Dataset)
 
